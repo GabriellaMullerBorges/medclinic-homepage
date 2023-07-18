@@ -1,11 +1,11 @@
 import { Container } from "./containerstyle";
 import { IoClose } from 'react-icons/io5'
-//import { useEffect } from 'react';
+import { useEffect } from 'react';
 
 export function MenuMobile({menuIsVisible, setMenuIsVisible }) {
- //   useEffect(() => {
- //       document.body.style.overflowY = menuIsVisible ? 'hidden' : 'auto';
-//      }, [menuIsVisible]);
+   useEffect(() => {
+       document.body.style.overflowY = menuIsVisible ? 'hidden' : 'auto';
+    }, [menuIsVisible]);
     
 return (
     <Container isVisible={menuIsVisible}> 

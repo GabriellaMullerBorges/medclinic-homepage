@@ -1,17 +1,26 @@
 import styled from "styled-components";
 
 export const ContainerHeader = styled.header`
- width: 100%;
-  background: #2E332E;
+ 
+  width: 100%;
+  background: #66CDAA;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  align-items:center;
+ 
 
-  padding: 14.5px 64px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  .div-botao {
+    display:none;
+  }
 
-  > section {
+  .navdiminuida {
     display: flex;
+    width:100%;
+    justify-content:space-between;
+    align-items:center;
     gap: 2rem;
+   
 
     &:last-child {
       gap: 1rem;
@@ -21,13 +30,18 @@ export const ContainerHeader = styled.header`
       width: 230px;
 
       @media(max-width: 500px) {
-        width: 120px;
+        width: 100%;
       }
     }
 
     > nav {
       display: flex;
+      flex-direction:row;
+      justify-content:flex-end;
+      align-items:center;
       gap: 1rem;
+      margin-right:1em;
+      width: 100%;
 
       a {
         font-size: 20px;
@@ -57,7 +71,8 @@ export const ContainerHeader = styled.header`
 
     @media(max-width: 900px) {
       .mobile {
-        display: initial;
+        display: flex;
+        justify-self: flex-end;
       }
       > nav {
         display: none;
@@ -67,5 +82,13 @@ export const ContainerHeader = styled.header`
 
   @media(max-width: 700px) {
     padding: 14.5px 16px;
+
+    .div-botao {
+    display:flex;
+    }
+
+    .div-botao:hover {
+    cursor: pointer;
+    }
   }
 `;

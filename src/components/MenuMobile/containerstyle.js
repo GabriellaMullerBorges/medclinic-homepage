@@ -15,7 +15,7 @@ export const Container = styled.section`
   align-items: center;
   justify-content: center;
 
-  background: red;
+  background: #66CDAA; // envolto do mobile
 
   opacity:0;
   pointer-events:none; 
@@ -30,7 +30,8 @@ export const Container = styled.section`
     transform: rotate(45deg);
     transition: .7s;
   }
-
+ 
+  //nav do mobile
   nav {
     display: flex;
     align-items: center;
@@ -41,17 +42,26 @@ export const Container = styled.section`
     transition: 0.7s;
   }
 
+
   ${({ isVisible}) => isVisible && css`
     opacity:1;
     pointer-events:auto;
     transform: translateY(0);
   
     > svg {
-  transform: rotate(0deg);
+    transform: rotate(0deg);
+    cursor: pointer;
+  }
+  > svg:hover {
+    color:#56A890;
   }
 
   nav{
     transform: scale(1)
+  }
+
+  nav a:hover {
+    color:#56A890;
   }
 
 

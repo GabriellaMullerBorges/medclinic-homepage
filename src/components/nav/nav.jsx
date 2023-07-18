@@ -9,25 +9,13 @@ export function Nav() {
    return (
     <>  
         <NavEstilo>
-        <nav>
+        <nav className='navreta'>
             < Logo />
-            <ul>
-                <li>
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#">Sobre</a>
-                </li>
-                <li>
-                    <a href="#">Serviços</a>
-                </li>
-                <li>
-                    <a href="#">Contato</a>
-                </li>
-                <li>
-                    <a href="#">Login</a>
-                </li>
-            </ul>
+            <a href="#">Home</a>
+            <a href="#">Sobre</a>
+            <a href="#">Serviços</a>
+            <a href="#">Contato</a>
+            <a href="#">Login</a>
         </nav>
         </NavEstilo>
     </>

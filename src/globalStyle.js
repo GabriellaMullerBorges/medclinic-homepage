@@ -2,9 +2,6 @@ import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
 
-body {
-  background-color:hotpink
-}
 
 * {
     margin: 0;
@@ -27,10 +24,11 @@ body {
   }
 
   body {
-    background: #232623;
+    font-family:'poppins';
     color: #fff;
   }
 
+ 
   body,
   input,
   textarea,
@@ -56,4 +54,5 @@ body {
     width: 100%;
     max-width: 100%;
   }
+
 `
