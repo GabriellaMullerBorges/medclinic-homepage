@@ -1,18 +1,14 @@
-import React from 'react';
-import Teste from './components/teste/teste';
-import Nav from './components/nav/nav';
+import { GlobalStyle } from "./globalStyle";
+import { Home } from './pages/Pagehome'
 
 
-function App() {
+function App(){
   return (
-    <body className='vsc-initialized'>
-      <Nav></Nav>
-      <div>
-        <Teste /> 
-      </div>
-    
-    </body>
-  );
+      <>
+        <GlobalStyle />
+        <Home />
+      </>
+    );
 }
 
 export default App;
