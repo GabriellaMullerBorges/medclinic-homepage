@@ -5,8 +5,7 @@ import Nav from './components/nav/nav';
 
 function App() {
   return (
-    <body>
-
+    <body className='vsc-initialized'>
       <Nav></Nav>
       <div>
         <Teste /> 

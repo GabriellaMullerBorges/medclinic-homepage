@@ -1,52 +1,44 @@
 import React, { useState } from 'react';
 import logo from '../../assets/icons/logo.png';
+import { MenuMobile } from './mobile';
 import { NavEstilo } from './navstyle';
 
-const Nav = () => {
-  const [isExpanded, setIsExpanded] = useState(false);
 
-  const toggleMenu = () => {
-    setIsExpanded(!isExpanded);
-  };
+export function Nav() {
 
-  return (
-    <NavEstilo>
-      <nav>
-        <div className={`navbar ${isExpanded ? 'expanded' : ''}`}>
-          <img src={logo} alt="MedClinic logo" className="logo" />
-          <button
-            className={`navbar-toggler ${isExpanded ? 'collapsed' : ''}`}
-            type="button"
-            onClick={toggleMenu}
-            aria-expanded={isExpanded}
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon">
-              <span></span>
-              <span></span>
-              <span></span>
-            </span>
-          </button>
-        </div>
-        <ul className={`navbar-nav ${isExpanded ? 'expanded' : ''}`}>
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">Sobre</a>
-          </li>
-          <li>
-            <a href="#">Serviços</a>
-          </li>
-          <li>
-            <a href="#">Contato</a>
-          </li>
-          <li>
-            <a href="#">Login</a>
-          </li>
-        </ul>
-      </nav>
-    </NavEstilo>
+    const [menuIsVisible, setMenuIsVisible] = useState(true)
+
+   return (
+    <>  
+        <MenuMobile 
+            menuIsVisible = {menuIsVisible}
+            setMenuIsVisible = {setMenuIsVisible}
+        />   
+        <NavEstilo>
+        <nav>
+            <div className="logo-div">
+                <img src={logo} alt="MedClinic logo" className="logo" />
+            </div>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Sobre</a>
+                </li>
+                <li>
+                    <a href="#">Serviços</a>
+                </li>
+                <li>
+                    <a href="#">Contato</a>
+                </li>
+                <li>
+                    <a href="#">Login</a>
+                </li>
+            </ul>
+        </nav>
+        </NavEstilo>
+    </>
   );
 };
 
