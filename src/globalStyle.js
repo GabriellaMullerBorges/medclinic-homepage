@@ -33,7 +33,7 @@ export const GlobalStyle = createGlobalStyle`
   input,
   textarea,
   button {
-    font: 500 1.3rem 'Source Sans Pro', sans-serif;
+    font: 500 1.3rem 'Source Sans 3', sans-serif;
   }
 
   button {
