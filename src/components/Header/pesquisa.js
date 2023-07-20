@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Pesquisastyle = styled.div`
 
 .pesquisa {
-  position: relative; /* Adicionamos position relative para que o ::before seja posicionado corretamente */
+  position: relative; 
   z-index:3;
   margin:0.8rem;
   padding: 10px;
@@ -12,16 +12,16 @@ export const Pesquisastyle = styled.div`
 }
 
 .pesquisa::before {
-  /* Estilização da pseudo-classe ::before */
+
   content: '';
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #000; /* Cor do background com opacidade */
-  opacity: 0.1; /* Define a opacidade para 0.1 (10%) */
-  z-index: -1; /* Coloca a pseudo-classe atrás da div e dos elementos filhos */
+  background-color: #000; 
+  opacity: 0.1; 
+  z-index: -1; 
 }
 
 .botoes-pre {

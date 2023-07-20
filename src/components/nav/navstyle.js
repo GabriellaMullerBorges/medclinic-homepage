@@ -1,9 +1,8 @@
-import styled from 'styled-components';
+/*import styled from 'styled-components';
 
 export const NavEstilo = styled.div`
  .navreta {
   width:100%;
-  background:blue !important;
  }
 
   nav a {
@@ -16,4 +15,4 @@ export const NavEstilo = styled.div`
     color: #009393;
   }
 
-  `
+  `*/

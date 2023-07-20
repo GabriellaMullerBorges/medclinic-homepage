@@ -3,6 +3,9 @@ import styled from "styled-components";
 export const Chamadastyle = styled.div`
 
 background-image: url(https://img.freepik.com/free-photo/flat-lay-health-still-life-arrangement-with-copy-space_23-2148854064.jpg?w=1060&t=st=1685816314~exp=1685816914~hmac=7d2736b757665f3bc183063fbee7fe0855ed953fd762d0ed3ca2d4d52b603f5d);
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
 
 .chamadadiv{
     height:450px;

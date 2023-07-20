@@ -6,15 +6,15 @@ export const GlobalStyle = createGlobalStyle`
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-
+    height:fit-content;
+   
     ::-webkit-scrollbar {
       width: 5px;
       height: 5px;
       transition:.3s;
     }
     ::-webkit-scrollbar-thumb {
-      background: #2FDA2B;
+      background: #56A890;
       border-radius: 10px;
     }
     ::-webkit-scrollbar-track{
@@ -25,7 +25,10 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     font-family:'poppins';
-    color: #fff;
+    color: white;
+    background-color:white;
+    overflow-x:hidden;
+    height:fit-content;
   }
 
  

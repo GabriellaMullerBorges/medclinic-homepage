@@ -1,8 +1,8 @@
 import styled, { css } from "styled-components";
 
 export const Container = styled.section`
-
-  position: absolute;
+ 
+  position: absolute; //para o popup do menu mobile
   backdrop-filter: blur(3px);
   width: 100%;
   height: 100%;
@@ -14,6 +14,8 @@ export const Container = styled.section`
   display: flex;
   align-items: center;
   justify-content: center;
+  max-height:100%;
+  
 
   background: #66CDAA; // envolto do mobile
 
@@ -68,6 +70,10 @@ export const Container = styled.section`
   `
 }
 
+@media (min-width: 907px){
+  display:none;
+  overflow-y: scroll;
+}
 
 
 `;

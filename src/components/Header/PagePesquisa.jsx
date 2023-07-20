@@ -40,7 +40,7 @@ export function Pesquisa() {
           </div>
 
         <form action="search" className="pesquisa-form">
-            <label for="especialidades"></label>
+            <label for="especialidades"> </label>
             <select id="especialidades" name="especialidades">
                 <option value="Especialidade">Especialidades</option>
                 <option value="cardiologista">Cardiologista</option>
@@ -49,7 +49,7 @@ export function Pesquisa() {
                 <option value="dermatologista">Dermatologista</option>
                 <option value="nao-sei">Não sei</option>
             </select>
-            <label for="cidade"></label>
+            <label for="cidades"> </label>
             <select id="cidades" name="cidades">
               <option value="sao-paulo">Cidade</option>
                 <option value="sao-paulo">São Paulo</option>

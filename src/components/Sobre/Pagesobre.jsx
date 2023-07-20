@@ -6,8 +6,8 @@ export function Sobre() {
     < Sobrestyle >
     <div className='sobre'> 
         <div className='texto-sobre'>
-            A MedClinic possui atendimento em quatro estados, com uma equipe de especialistas dedicados, nosso foco é oferecer cuidados de saúde de qualidade.
-             Priorizamos atendimento personalizado e acolhedor, buscando sempre o bem-estar de nossos pacientes.
+            A MedClinic possui atendimento em quatro estados, com uma equipe de especialistas dedicados.
+            Priorizamos atendimento personalizado e acolhedor, buscando sempre o bem-estar de nossos pacientes.
         </div>
       </div>
     </Sobrestyle>

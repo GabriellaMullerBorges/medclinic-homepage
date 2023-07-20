@@ -8,7 +8,7 @@ export const ContainerHeader = styled.header`
   flex-direction:row;
   justify-content:space-between;
   align-items:center;
- 
+   
 
   .div-botao {
     display:none;
@@ -54,7 +54,7 @@ export const ContainerHeader = styled.header`
           position: absolute;
           width: 0%;
           height: 2px;
-          background: #3CA63A;
+          background: white;
           transition: .3s;
         }
 
@@ -69,7 +69,7 @@ export const ContainerHeader = styled.header`
       display: none;
     }
 
-    @media(max-width: 900px) {
+    @media(max-width: 700px) {
       .mobile {
         display: flex;
         justify-self: flex-end;

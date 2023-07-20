@@ -13,8 +13,8 @@ export function Header({ setMenuIsVisible }) {
         </div>
         <nav className="navNavdiminuida">
           <a href="#">Home</a>
-          <a href="#">Produtos</a>
           <a href="#">Sobre</a>
+          <a href="#">Serviços</a>
           <a href="#">Contato</a>
         </nav>
       </section>
