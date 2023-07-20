@@ -44,7 +44,9 @@ h4 {
 }
 .avatar{
     height: 6rem;
-    width:6rem
+    width:6rem;
+    border: 3px solid #1C5ECA;
+    border-radius:50%;
 }
 
 .info-div{
@@ -62,6 +64,9 @@ h4 {
     padding-left: 1rem;
 }
 
+.nome{
+    font-weight:bold;
+}
 
 @media (min-width: 769px) {
     margin-bottom: 1rem;
