@@ -7,7 +7,7 @@ import { Servicosstyle } from './servicos'
 export function Servicos() {
   return (
     < Servicosstyle>
-    <section className='servicos'>
+    <section className='servicos' id='servicos'>
 
         <section className="especialistas">
             <div className="chamada">

@@ -21,7 +21,7 @@ export function Pesquisa() {
   
     return (
       <Pesquisastyle>
-        <div className='pesquisa'>
+        <div className='pesquisa' id='home'>
           <div className='botoes-pre'>
             <button
               className={isActiveDoctor ? 'active' : ''}

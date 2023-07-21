@@ -11,11 +11,10 @@ return (
     <Container isVisible={menuIsVisible}> 
         <IoClose size={40} onClick={() => setMenuIsVisible(false)}/>
         <nav>          
-            <a href="#">Home</a>
-            <a href="#">Sobre</a>
-            <a href="#">Serviços</a>
-            <a href="#">Contato</a>
-            <a href="#">Login</a>
+            <a href="#home">Home</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#servicos">Serviços</a>
+            <a href="footer">Contato</a>
         </nav>
     </Container>    
 )
