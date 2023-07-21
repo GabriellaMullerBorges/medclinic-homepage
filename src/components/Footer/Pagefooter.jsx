@@ -15,7 +15,7 @@ export function Footer() {
                             <IconeDNA />
                         </div>
                     </div>
-                    <div className="col col-6 d-flex align-items-center justify-content-center">
+                    <div className="col col-6 d-flex align-items-center justify-content-center colcodedby">
                         <a href="https://github.com/GabriellaMullerBorges" className="link" target="_blank"> 
                         <p className='codedbyme'>Coded by GMB</p>
                         <i className="bx bx-link-external"></i>

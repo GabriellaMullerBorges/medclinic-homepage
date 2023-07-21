@@ -89,6 +89,10 @@ h4 {
 @media (min-width: 769px) {
     margin-bottom: 1rem;
 
+    .opinioes {
+        padding-bottom:4rem
+    }
+
     .cartoes{
         flex-direction:row;
         flex-wrap:wrap;  

@@ -78,5 +78,22 @@ form input {
     font-size:18px;
 }
 
+@media (min-width: 1024px){
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  width: 100%;
+  align-items:center;
+
+
+.pesquisa {
+  width:62%;
+}
+
+.pesquisa::before {
+border-radius:15px;
+}
+
+}
 
 `

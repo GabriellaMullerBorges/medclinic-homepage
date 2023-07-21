@@ -69,21 +69,29 @@ h4 {
 }
 
 @media (min-width: 769px) {
-    margin-bottom: 1rem;
-
-    .cartoes{
-        flex-direction:row;
-        flex-wrap:wrap;  
-    }
-
-    .card{
-        width:400px;
-        margin-right:1rem;
-    }
-
-    .info-div{
-    width:70%;
-    height:100%;
+ .perfis {
+  margin-bottom: 1rem;
 }
+
+.cartoes {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:row;
+  justify-content: center;
+  align-items: flex-start; /* Alinhe os cartões no início verticalmente */
+  box-sizing: border-box;
+}
+
+.card {
+  width: 400px;
+  margin: 0.5rem; /* Espaçamento de 1rem entre os cartões (0.5rem em cada direção) */
+}
+
+.info-div {
+  width: 70%;
+  height: 100%;
+}
+
 }
 `

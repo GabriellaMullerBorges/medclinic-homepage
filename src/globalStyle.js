@@ -14,7 +14,7 @@ export const GlobalStyle = createGlobalStyle`
       transition:.3s;
     }
     ::-webkit-scrollbar-thumb {
-      background: #56A890;
+      background: darkgrey;
       border-radius: 10px;
     }
     ::-webkit-scrollbar-track{

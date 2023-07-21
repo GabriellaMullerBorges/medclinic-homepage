@@ -3,9 +3,9 @@ import styled from "styled-components";
 
 export const Footerstyle = styled.div`
 
-background-color:#56A890;
-width: 100%;
-position: sticky;
+    background:#56A890;
+    width: 100%;
+    position: sticky;
     bottom: 0;
     margin:0;
     z-index: 0;
@@ -15,7 +15,6 @@ footer{
     font-size: 12px;
     color: white;
     margin:0;
-
 }
 
 .simbolo {
@@ -24,7 +23,7 @@ footer{
 }
 
 .simbolo-div{
-    font-size:12px;
+    font-size:14px;
 }
 
 .endereco, .contato {
@@ -42,5 +41,30 @@ footer{
 
 @media (min-width:1000px) {
     position:fixed;
+
+    .footerrow {
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+    }
+
+    .colsimbolodiv {
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+
+    .rowsimbolo {
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
+
+
+    .codedbyme {
+        min-width:100px;
+    }
+
+
 }
 `

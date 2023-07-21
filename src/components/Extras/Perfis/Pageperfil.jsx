@@ -48,17 +48,6 @@ export function Perfil() {
 
         <div className='card'>
             <div className='avatar-div'>
-                <img src={profilehomem} alt="" className='avatar'/>
-            </div>
-            <div className='info-div'>
-                <p className='nome'> Dra. Marina Oliveira Pedroso</p>
-                <p className="cidade">Rio de Janeiro/RJ</p>
-                <p className="especialidade">Ortopedista</p>
-            </div>
-        </div>
-
-        <div className='card'>
-            <div className='avatar-div'>
                 <img src={profilemulher} alt="" className='avatar'/>
             </div>
             <div className='info-div'>
@@ -67,7 +56,28 @@ export function Perfil() {
                 <p className="especialidade">Dermatologista</p>
             </div>
         </div>
+        <div className='card'>
+            <div className='avatar-div'>
+                <img src={mulheravatar} alt="" className='avatar'/>
+            </div>
+            <div className='info-div'>
+                <p className='nome'> Dra. Eduarda Costa Madeira</p>
+                <p className="cidade"> Rio de Janeiro/RJ</p>
+                <p className="especialidade">Cardiologista</p>
+            </div>
         </div>
+
+        <div className='card'>
+            <div className='avatar-div'>
+                <img src={profilehomem} alt="" className='avatar'/>
+            </div>
+            <div className='info-div'>
+                <p className='nome'> Dra. Marina Oliveira Pedroso</p>
+                <p className="cidade">Rio de Janeiro/RJ</p>
+                <p className="especialidade">Ortopedista</p>
+            </div>
+        </div>
+      </div>
 
     </div>
     </Perfilstyle>
