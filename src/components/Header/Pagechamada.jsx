@@ -9,7 +9,7 @@ export function Chamada() {
       <div className='chamadadiv'>
          <div className="chamadatexto">
             <h1>Agende agora sua consulta</h1>
-            <h3>Nossos especialistas de saúde estão prontos para te ajudar</h3>
+            <h2>Nossos especialistas de saúde estão prontos para te ajudar</h2>
          </div>
      <img src={doctors} alt="Desenho de médicos" className="doctors" />
       <Pesquisa></Pesquisa>  

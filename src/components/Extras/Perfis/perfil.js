@@ -19,8 +19,8 @@ z-index:0;
     padding: 0.5rem 0;
 }
 
-h4 {
-    color:#56A890;
+h3 {
+    color:#066336;
     font-weight:bold;
 }
 

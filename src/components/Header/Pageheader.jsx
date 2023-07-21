@@ -5,7 +5,7 @@ import { Chamada } from './Pagechamada'
 
 export function Header({ setMenuIsVisible }) {
   return (
-    <>
+  <header>
     <ContainerHeader>
       <section className="navdiminuida">
         <div className="divlogo">
@@ -24,6 +24,6 @@ export function Header({ setMenuIsVisible }) {
       </section>
     </ContainerHeader>
     <Chamada></Chamada>
-    </>
+  </header>
   )
 }

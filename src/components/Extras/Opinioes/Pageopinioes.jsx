@@ -8,7 +8,7 @@ export function Opinioes() {
   return (
     <Opinioesstyle>
     <div className='opinioes'>
-        <h4> Depoimentos </h4>
+        <h3> Depoimentos </h3>
         <div className="cartoes">
 
             <div className='card'>

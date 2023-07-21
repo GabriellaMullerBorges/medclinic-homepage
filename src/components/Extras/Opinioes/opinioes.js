@@ -20,8 +20,8 @@ z-index:0;
     width: 80%;
 }
 
-h4 {
-    color:#56A890;
+h3 {
+    color:#066336;
     font-weight:bold;
 }
 

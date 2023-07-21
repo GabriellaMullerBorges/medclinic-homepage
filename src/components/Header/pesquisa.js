@@ -20,7 +20,7 @@ export const Pesquisastyle = styled.div`
   width: 100%;
   height: 100%;
   background-color: #000; 
-  opacity: 0.1; 
+  opacity: 0.2; 
   z-index: -1; 
 }
 
@@ -64,8 +64,8 @@ form select {
 }
 
 select option:checked {
-    background-color: #E9EAE9;
-    color: black; 
+    background-color: #13643D;
+    color: white; 
   }
 
 form input {

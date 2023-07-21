@@ -7,49 +7,57 @@ import { Servicosstyle } from './servicos'
 export function Servicos() {
   return (
     < Servicosstyle>
-    <div className='servicos'>
-        <div className="especialistas">
+    <section className='servicos'>
+
+        <section className="especialistas">
             <div className="chamada">
                <div className="icone">
                 < IconePesquisa />
                 </div> 
-                <div className="titulo">
-                    <h5>Encontre especialistas</h5>
+                <div className="titulo" aria-labelledby="div englobando titulo da div especialistas">
+                    <h3 className='tituloservico' aria-labelledby="titulo da div especialistas">
+                        Encontre especialistas
+                    </h3>
                 </div>
             </div>
-            <div className="texto">
+            <div className="texto" aria-labelledby="texto da div especialistas">
                 <p> Busque por especialistas de saúde em sua região.</p>
             </div>
-        </div>
+        </section> 
 
-        <div className="consultas">
+        <section className="consultas">
             <div className="chamada">
                <div className="icone">
                 < IconeCalendario />
                 </div> 
-                <div className="titulo">
-                <h5>Marque consultas</h5>
+                <div className="titulo" aria-labelledby="div englobando titulo da div consultas">
+                <h3 className='tituloservico'  aria-labelledby="titulo da div consultas">
+                    Marque consultas
+                    </h3>
                 </div>
             </div>
-            <div className="texto">
+            <div className="texto" aria-labelledby="texto da div consultas">
                 <p> Escolha o profissional, dia e horário que desejar. </p>
             </div>
-        </div>
+        </section>
         
-        <div className="avaliacoes">
+        <section className="avaliacoes">
             <div className="chamada">
                <div className="icone">
                 < IconeLike />
                 </div> 
-                <div className="titulo">
-                <h5>Avalie o serviço</h5>
+                <div className="titulo" aria-labelledby="div englobando titulo da div avaliacoes">
+                <h3 className='tituloservico'  aria-labelledby="titulo da div avaliacoes">
+                    Avalie o serviço
+                    </h3>
                 </div>
             </div>
             <div className="texto">
                 <p>Após a consulta você pode deixar sua opinião.</p>
             </div>
-        </div>
-    </div>
+        </section>
+
+    </section>
     </Servicosstyle>
   )
 }

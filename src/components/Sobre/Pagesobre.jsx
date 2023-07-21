@@ -3,6 +3,8 @@ import { Sobrestyle } from './sobre';
 
 export function Sobre() {
   return (
+
+    <section className='sobresection'>
     < Sobrestyle >
     <div className='sobre'> 
         <div className='texto-sobre'>
@@ -11,5 +13,7 @@ export function Sobre() {
         </div>
       </div>
     </Sobrestyle>
+    </section>
+
   )
 }

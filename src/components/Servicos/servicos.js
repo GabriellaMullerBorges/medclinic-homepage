@@ -16,6 +16,10 @@ background-color:#F1F1F2;
  flex-direction: column;
 }
 
+.tituloservico {
+    font-weight:bold;
+}
+
 .titulo, .texto {
     color:black;
 }

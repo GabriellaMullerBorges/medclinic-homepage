@@ -30,7 +30,7 @@ background-size:cover;
   text-align:center;
   font-weight:bold;
 }
-.chamadatexto h3 {
+.chamadatexto h2 {
   text-align:center;
 }
 

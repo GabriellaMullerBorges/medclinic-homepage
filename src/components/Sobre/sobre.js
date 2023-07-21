@@ -13,7 +13,8 @@ font-weight: 400;
 padding: 1rem;
 
 .sobre {
-    color: #56A890;
+    color: #13643D;
+    font-size:20px
 }
 
 @media (min-width: 1024px) {

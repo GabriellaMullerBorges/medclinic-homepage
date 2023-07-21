@@ -10,7 +10,7 @@ export function Perfil() {
   return (
     <Perfilstyle>
     <div className='perfis'>
-        <h4> Profissionais do MedClinic </h4>
+        <h3> Profissionais do MedClinic </h3>
         <div className="cartoes">
 
         <div className='card'>

@@ -16,12 +16,14 @@ export function Home () {
        menuIsVisible={menuIsVisible}
        setMenuIsVisible={setMenuIsVisible}
       />
-      <HomeContainer>
-        <Header setMenuIsVisible={setMenuIsVisible}/>
-      </HomeContainer>
-      <Sobre></Sobre>
-      < Servicos></Servicos>
-      < Extras></ Extras >
+        <HomeContainer>
+          <Header setMenuIsVisible={setMenuIsVisible}/>
+        </HomeContainer>
+      <main>
+        <Sobre></Sobre>
+        < Servicos></Servicos>
+        < Extras></ Extras >
+      </main>
       <Footer></Footer>
     </>
   )
